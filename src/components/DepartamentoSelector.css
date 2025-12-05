@@ -1,0 +1,41 @@
+.departamento-selector {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+}
+
+.departamento-selector label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 12px;
+}
+
+.selector {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  color: #1a202c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.selector:hover {
+  border-color: #cbd5e0;
+}
+
+.selector:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.selector option {
+  padding: 12px;
+}
